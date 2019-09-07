@@ -1,0 +1,59 @@
+.clothes{
+    height: 270px;
+    margin: auto;
+    display: block;
+    bottom: 0;
+}
+.container-fluid:first-child{
+    padding-top: 116px;
+}
+
+.img-wrapper{
+margin: 50px;
+padding: 10px;
+background-color: white;
+box-shadow: 10px 10px 8px -8px rgba(0,0,0,0.75);
+
+}
+
+.words{
+    text-align: center;
+    z-index: 4;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    background-color: white;
+    padding-top: 3px;
+    margin-bottom: 20px;
+    
+
+}
+.words h1{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+
+
+}
+
+
+.words h4{
+margin: auto;
+    display: inline-block;
+	margin-right: 20px;
+        font-weight: lighter;
+
+}
+
+p{
+    display: inline;
+    font-size: 22px;
+        font-weight: normal;
+}
+.item{
+float: right;
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+}

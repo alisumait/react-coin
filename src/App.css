@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Averta";
+    src: url("./fonts/Averta-Light.woff") format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Averta";
+    src: url("./fonts/Averta-Bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Averta";
+    src: url("./fonts/Averta-Semibold.woff") format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Averta";
+    src: url("./fonts/Averta-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: Averta;
+}
+
+html,body{
+    background-color: snows;
+}
+.main {
+    margin: auto;
+    height: 290px;
+    display: block;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 60px;
+    font-size: 20px;
+    border-radius: 20px !important;
+    width: 120px;
+    border: black;
+    background-color: black;
+}
+
+.capt{
+    
+}
+
+.upload{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    bottom: 10px;
+    background-color: white;
+    color: black;
+    left: 9px;
+    right: 0;
+    padding: 6px;
+    font-size: 15px;
+}
+
+input#link-btn{
+	margin-top:20px;
+}
+Link{
+    display: none;
+}
+
+Webcam,video,.capt{
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.human{
+    position: absolute;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 25px;
+    width: 100%;
+    object-fit: contain;
+    text-align: center;
+}
